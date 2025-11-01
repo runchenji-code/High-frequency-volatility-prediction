@@ -1,9 +1,0 @@
-Data：
-gold_rv_1h_15min.csv：1小时黄金价格已实现波动率（RV），数据频率为15分钟。
-RV_STL.csv：RV数据经过STL分解得到季节性成分、趋势性成分、残差成分。沿属性拼接RV，RV季节性成分和RV趋势性成分得到RV_STL.csv。
-Code:
-RV_STL_Data.ipynb：对RV数据进行滑动窗口STL分解。
-Transformer_RV.ipynb：基于Transformer模型对RV进行单步和多步预测，输入数据为RV。
-Transformer_RV_STL.ipynb：基于Transformer模型对RV进行单步和多步预测，输入数据为RV，RV季节性成分和RV趋势性成分。
-LSTM_RV.ipynb：基于LSTM模型对RV进行单步和多步预测，输入数据为RV。
-LSTM_RV_STL.ipynb：基于LSTM模型对RV进行单步和多步预测，输入数据为RV，RV季节性成分和RV趋势性成分。
